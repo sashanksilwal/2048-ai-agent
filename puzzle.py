@@ -15,7 +15,6 @@ try:
     print("Loaded Q table with", len(Q), "states")
 except:
     print("Warning: Q table not found")
-    Q = {}
 
 def agent_best_action(matrix):
     state = encode_state(matrix)
